@@ -109,9 +109,6 @@ const FLink02B = styled.div`
     padding-bottom:8px;
 `
 
-
-`
-
 const FooterBody = styled.div`
     display:block;
     margin: 8px;
