@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import FooteLinkIcon from '../../assets/images/footerLink_icon.png'
-import FighterIcon from '../../assets/images/fighter-icon.png'
-import BLogo from '../../assets/images/binance-logo.png'
 import './Footer.css'
 const Link02: React.FC = () => {
     return (
@@ -90,15 +88,7 @@ const FooterFrame = styled.footer`
         height:auto;
         padding:10px 10px 30px 10px;
     } 
-`
 
-const JRLogo = styled.div`
-    margin-right:auto;
-    min-width:110px;
-
-    @media (min-width: 320px) and (max-width: 500px){
-        margin:0 auto 20px auto;
-    }
 `
 
 const FooterCbox = styled.div`
@@ -119,17 +109,7 @@ const FLink02B = styled.div`
     padding-bottom:8px;
 `
 
-const BinanceLogo = styled.div`
-    margin-left:auto;
-    @media (min-width: 320px) and (max-width: 500px){
-        margin:0 auto 20px auto;
-    }
-`
 
-const BinanceLogoLink = styled.a`
-    &:hover {
-        opacity:0.7;
-    }
 `
 
 const FooterBody = styled.div`
@@ -147,16 +127,10 @@ const Footer: React.FC = () => {
     return (
         <FooterBody>
             <FooterFrame>
-                <JRLogo>
-                  <img style={{ position: 'absolute', left:10, top:-23}} src={FighterIcon} alt="Fighter" />
-                </JRLogo>
                 <FooterCbox>
                     <Link01 />
                     <Link02 />
                 </FooterCbox>
-                <BinanceLogo>
-                    <BinanceLogoLink href="https://www.binance.org/en" target="_blank"><img src={BLogo} /> </BinanceLogoLink>
-                </BinanceLogo>
             </FooterFrame>
         </FooterBody>
     )}
