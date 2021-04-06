@@ -1,6 +1,6 @@
 // used to mark unsupported tokens, these are hosted lists of unsupported tokens
 
-const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
+const COMPOUND_LIST = 'https://tokens.bscswap.com/tokens.json'
 
 export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST]
 
