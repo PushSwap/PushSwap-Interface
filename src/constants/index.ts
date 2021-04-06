@@ -3,6 +3,8 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@bscswap/sdk'
 
 import { injected, binanceinjected } from '../connectors'
 
+const COMPOUND_LIST = 'https://pushprotocol.com/wp-content/uploads/2021/04/tokens.json'
+
 export const ROUTER_ADDRESS = '0xd954551853F55deb4Ae31407c423e67B1621424A'
 
 // a list of tokens by chain
