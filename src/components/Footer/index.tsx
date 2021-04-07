@@ -73,7 +73,7 @@ const FooterFrame = styled.footer`
 
 const FooterCbox = styled.div`
     text-align:center;
-    margin:0 auto;
+    margin:6px;
 `
 
 const FLink01B = styled.div`
