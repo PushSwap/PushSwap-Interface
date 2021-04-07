@@ -97,7 +97,7 @@ const FooterBody = styled.div`
     display:block;
     margin: 0px;
     width:99%;
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
     
