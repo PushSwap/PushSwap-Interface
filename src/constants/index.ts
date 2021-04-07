@@ -1,9 +1,7 @@
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { ChainId, JSBI, Percent, Token, WETH } from '@bscswap/sdk'
 
-import { injected, binanceinjected } from '../connectors'
-
-
+import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
 export const ROUTER_ADDRESS = '0xd954551853F55deb4Ae31407c423e67B1621424A'
 
@@ -162,19 +160,4 @@ export const MIN_ETH: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16))
 export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
 // the Uniswap Default token list lives here
-
-const COMPOUND_LIST = 'https://pushprotocol.com/wp-content/uploads/2021/04/tokens.json'
-
-export const DEFAULT_TOKEN_LIST_URL: string[] = [
-  COMPOUND_LIST
-]
-
-
-export const BLOCKED_ADDRESSES: string[] = [
-  '0x7F367cC41522cE07553e823bf3be79A889DEbe1B',
-  '0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b',
-  '0x901bb9583b24D97e995513C6778dc6888AB6870e',
-  '0xA7e5d5A720f06526557c513402f2e6B5fA20b008',
-  '0x8576aCC5C05D6Ce88f4e49bf65BdF0C62F91353C'
-]
-
+export const DEFAULT_TOKEN_LIST_URL = 'https://tokens.bscswap.com/tokens.json'
