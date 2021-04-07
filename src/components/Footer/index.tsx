@@ -31,7 +31,7 @@ const StyledAbsoluteLinkA = styled.a`
     font:normal 10px/16px "Press Start 2P", arial;
     margin:0 16px;
     &:hover {
-        color: #F3B92E;
+        color: #AD0162;
     }
 `
 const StyledAbsoluteLinkB = styled.a`
@@ -41,13 +41,13 @@ const StyledAbsoluteLinkB = styled.a`
     font:normal 12px/16px "IBM Plex Mono", arial;
     margin:0 6px;
     &:hover {
-        color: #F3B92E;
+        color: #AD0162;
     }
 `
 
 const FooterFrame = styled.footer`
 
-    background-color:#AD0162;
+    background-color:#806CD4;
     width:100%;
     height:100px; 
     margin-top:40px;
