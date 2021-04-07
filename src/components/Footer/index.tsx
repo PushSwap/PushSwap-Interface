@@ -1,20 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import FooteLinkIcon from '../../assets/images/footerLink_icon.png'
 import './Footer.css'
 const Link02: React.FC = () => {
     return (
         <FLink02B>
-        <StyledAbsoluteLinkB href="#" >Powered by Atom Foundation:</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="https://jointer.io" target="_blank">Jointer.io</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >BSCbonus.com</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >SmartSwap.exchange</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >ZERO/1</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >DegenSwap.io</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >ElementZero.network</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >Packey.insure</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >Mass.investments</StyledAbsoluteLinkB>
-
+        <StyledAbsoluteLinkB href="#" >Powered by Push Protocol:</StyledAbsoluteLinkB> |
+        <StyledAbsoluteLinkB href="https://pushprotocol.com/" >PushProtocol.com</StyledAbsoluteLinkB> |
+        <StyledAbsoluteLinkB href="https://www.binance.org/en/smartChain" >Binance Smart Chain</StyledAbsoluteLinkB> |
         </FLink02B>
     )
 }
@@ -23,27 +15,15 @@ const Link01: React.FC = () => {
     return (
       <FLink01B>
         <StyledAbsoluteLinkA href="#" >List new token</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Upgrade to v2</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Voting</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Github</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Medium</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Telegram</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Twitter</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Discord</StyledAbsoluteLinkA> |
-        <StyledIcon01 href="#"></StyledIcon01>
+        <StyledAbsoluteLinkA href="https://github.com/pushswap" >Github</StyledAbsoluteLinkA> |
+        <StyledAbsoluteLinkA href="https://pushprotocol.medium.com/" >Medium</StyledAbsoluteLinkA> |
+        <StyledAbsoluteLinkA href="https://t.me/pushprotocol_official_channel" >Telegram</StyledAbsoluteLinkA> |
+        <StyledAbsoluteLinkA href="https://twitter.com/PushProtocol" >Twitter</StyledAbsoluteLinkA> |
       </FLink01B>
     )
 }
 
-const StyledIcon01 = styled.a`
-    cursor:pointer; 
-    text-decoration: none;
-    width:25px;
-    height:25px;
-    margin:0 16px;
-    display:inline-block;
-    background:url(${FooteLinkIcon}) 50% 50% no-repeat;
-`
+
 const StyledAbsoluteLinkA = styled.a`
     cursor:pointer; 
     text-decoration: none;
@@ -67,7 +47,7 @@ const StyledAbsoluteLinkB = styled.a`
 
 const FooterFrame = styled.footer`
 
-    background-color:#070707;
+    background-color:#AD0162;
     width:100%;
     height:100px; 
     margin-top:40px;
@@ -76,15 +56,15 @@ const FooterFrame = styled.footer`
     padding:28px 20px;
     flex-wrap:wrap;
     position:relative;
-    @media (min-width: 320px) and (max-width: 500px){
+    @media (min-width: 320px) and (max-width: 320px){
         flex-wrap: wrap;
         flex-direction: row;
     }
-    @media (min-width: 501px) and (max-width: 767px){
+    @media (min-width: 501px) and (max-width: 501px){
         height:auto;
         padding:10px 10px 30px 10px;
     }
-    @media (min-width: 768px) and (max-width: 991px){
+    @media (min-width: 768px) and (max-width: 768px){
         height:auto;
         padding:10px 10px 30px 10px;
     } 
@@ -111,7 +91,7 @@ const FLink02B = styled.div`
 
 const FooterBody = styled.div`
     display:block;
-    margin: 8px;
+    margin: 0px;
     width:99%;
     position: fixed;
     left: 0;
