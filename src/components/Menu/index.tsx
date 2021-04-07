@@ -114,9 +114,13 @@ export default function Menu() {
       </StyledMenuButton>
       {chainId && open && (
         <MenuFlyout>
-          <MenuItem id="link" href={getAnalysisLink(chainId)}>
-            <PieChart size={14} />
-            {t('analytics')}
+          <MenuItem id="link" href="https://pushprotocol.com/zero-launchpad">
+            <Send size={14} />
+            Zero LaunchPad
+          </MenuItem>
+          <MenuItem id="link" href="https://pushprotocol.com/yield-farming">
+            <Send size={14} />
+            Yield Farming
           </MenuItem>
           <MenuItem id="link" href="https://twitter.com/pushprotocol">
             <Send size={14} />
