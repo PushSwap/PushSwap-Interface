@@ -92,6 +92,13 @@ const UniIcon = styled.div`
   // :hover {
   //   transform: rotate(-5deg);
   // }
+${({ theme }) => theme.mediaWidth.upToExtraSmall`
+    display: none;  
+  `};
+
+${({ theme }) => theme.mediaWidth.upToSmall`
+    display: none;
+`};
 `
 
 const HeaderControls = styled.div`
