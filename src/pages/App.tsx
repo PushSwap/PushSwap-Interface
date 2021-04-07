@@ -3,7 +3,6 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import GoogleAnalyticsReporter from '../components/analytics/GoogleAnalyticsReporter'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
 import DarkModeQueryParamReader from '../theme/DarkModeQueryParamReader'
@@ -91,7 +90,6 @@ export default function App() {
             </Web3ReactManager>
             <Marginer />
           </BodyWrapper>
-          <Footer />  
         </AppWrapper>
       </HashRouter>
     </Suspense>
