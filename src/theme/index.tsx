@@ -48,15 +48,15 @@ export function colors(darkMode: boolean): Colors {
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
 
     // backgrounds / greys
-    bg1: darkMode ? '#7a2555' : '#de78b1',
-    bg2: darkMode ? '#8c2a62' : '#de78b1',
-    bg3: darkMode ? '#8f426e' : '#d474a9',
-    bg4: darkMode ? '#b5779b' : '#b86392',
-    bg5: darkMode ? '#b5779b' : '#b57d9c',
+    bg1: darkMode ? '#212429' : '#FFFFFF',
+    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg3: darkMode ? '#40444F' : '#EDEEF2',
+    bg4: darkMode ? '#565A69' : '#CED0D9',
+    bg5: darkMode ? '#6C7284' : '#888D9B',
 
     //specialty colors
-    modalBG: darkMode ? '#7a2555' : '#7a2555',
-    advancedBG: darkMode ? '#de78b1' : '#de78b1',
+    modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
+    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
     primary1: darkMode ? '#806CD4' : '#806CD4',
