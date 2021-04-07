@@ -18,44 +18,6 @@ import Menu from '../Menu'
 import { RowBetween } from '../Row'
 import Web3Status from '../Web3Status'
 
-const Nav: React.FC = () => {
-  return (
-    <StyledNav>
-      <StyledAbsoluteLink href="https://trade.bscswap.com/#/swap" className="active">Trade</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://bscbonus.com" target="_blank" >Yield Farming</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pushprotocol.com/zerolaunchpad" target="_blank">Zero LaunchPad</StyledAbsoluteLink>
-    </StyledNav>
-  )
-}
-
-const StyledNav = styled.nav`
-  align-items: center;
-  display: flex;
-  font-size: 20px;
-  line-height: 45px;
-  font-weight: 500;
-  @media (max-width: 600px) {
-    display: none;
-  }
-`
-
-const StyledAbsoluteLink = styled.a`
-  color: #000000;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  &:hover {
-    color: #FFBB00;
-  }
-  &.active {
-    color: #FFBB00;
-  }
-  @media (max-width: 400px) {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-`
-
 
 const HeaderFrame = styled.div`
   display: flex;
