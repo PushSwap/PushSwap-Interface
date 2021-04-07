@@ -127,7 +127,7 @@ export default function Menu() {
             <Send size={14} />
             {t('telegram')}
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/pushprotocol/bscswap-interface">
+          <MenuItem id="link" href="https://github.com/PushSwap/PushSwap-Interface">
             <Code size={14} />
             {t('code')}
           </MenuItem>
