@@ -4,7 +4,7 @@ import './Footer.css'
 const Link02: React.FC = () => {
     return (
         <FLink02B>
-        <StyledAbsoluteLinkB href="#" >Powered by Push Protocol:</StyledAbsoluteLinkB> |
+        <StyledAbsoluteLinkB href="#" >Powered by:</StyledAbsoluteLinkB> |
         <StyledAbsoluteLinkB href="https://pushprotocol.com/" >PushProtocol.com</StyledAbsoluteLinkB> |
         <StyledAbsoluteLinkB href="https://www.binance.org/en/smartChain" >Binance Smart Chain</StyledAbsoluteLinkB> |
         </FLink02B>
