@@ -62,11 +62,15 @@ const FooterFrame = styled.footer`
     }
     @media (min-width: 501px) and (max-width: 501px){
         height:auto;
-        padding:5px;
+        padding-top:5px;
+        padding-bottom:15px;
+padding-right: 10px;
     }
     @media (min-width: 768px) and (max-width: 768px){
         height:auto;
-        padding:5px;
+        padding-top:5px;
+        padding-bottom:15px;
+padding-right: 10px;
     } 
 
 `
@@ -93,7 +97,7 @@ const FooterBody = styled.div`
     display:block;
     margin: 0px;
     width:99%;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     
