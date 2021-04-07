@@ -62,18 +62,18 @@ const FooterFrame = styled.footer`
     }
     @media (min-width: 501px) and (max-width: 501px){
         height:auto;
-        padding:10px 10px 30px 10px;
+        padding:5px;
     }
     @media (min-width: 768px) and (max-width: 768px){
         height:auto;
-        padding:10px 10px 30px 10px;
+        padding:5px;
     } 
 
 `
 
 const FooterCbox = styled.div`
     text-align:center;
-    margin:6px;
+    margin:0 auto;
 `
 
 const FLink01B = styled.div`
