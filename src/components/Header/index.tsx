@@ -137,7 +137,6 @@ export default function Header() {
             </UniIcon>
           </Title>
         </HeaderElement>
-        <Nav />
         <HeaderControls>
           <HeaderElement>
             <TestnetWrapper>
