@@ -1,10 +1,9 @@
 import React, { useRef, useEffect } from 'react'
-import { BookOpen, Code, PieChart, MessageCircle, Send, CheckCircle } from 'react-feather'
+import { BookOpen, Code, Send } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import useToggle from '../../hooks/useToggle'
 import { useActiveWeb3React } from '../../hooks'
-import { getEtherscanLink, getAnalysisLink } from '../../utils'
 import { useTranslation } from 'react-i18next'
 
 import { ExternalLink } from '../../theme'
@@ -79,8 +78,6 @@ const MenuItem = styled(ExternalLink)`
     margin-right: 8px;
   }
 `
-
-const CODE_LINK = 'https://github.com/bscswap/contracts'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
