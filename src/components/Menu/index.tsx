@@ -136,9 +136,9 @@ export default function Menu() {
             Medium
           </MenuItem>
          
-          <MenuItem id="link" href={getEtherscanLink(chainId, '0x7e92315491a687430d3ca20e8f6417252d8cb4f3', 'address')}>
+          <MenuItem id="link" href="https://bscscan.com/token/0x7e92315491a687430d3ca20e8f6417252d8cb4f3">
             <BookOpen size={14} />
-            {t('bscscancontract')}
+            Push Protocol
           </MenuItem>
         </MenuFlyout>
       )}
