@@ -160,4 +160,4 @@ export const MIN_ETH: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16))
 export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/malikfarhan786/uniswap-tokenlist/main/tokens.json'
+export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/PushSwap/PushSwap-Interface/master/src/constants/token-list/tokens.json'
